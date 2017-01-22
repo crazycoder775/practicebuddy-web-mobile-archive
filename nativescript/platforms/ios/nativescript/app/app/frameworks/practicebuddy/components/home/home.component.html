@@ -1,0 +1,17 @@
+
+            <div>          
+              <h1>Welcome!</h1>          
+              <p textWrap="true">Practice Buddy helps students become better musicians, and music teachers mentor their students.</p>
+              <p *ngIf="(students$ | async)?.length==0" style="font-weight: bold" textWrap="true">Looks like there are no students associated to this account.</p>
+              <Button *ngIf="(students$ | async)?.length==0" class="white-text" label="Add music students to this account"></Button>
+            </div>
+           	
+             <div horizontalAlignment="center">
+              <div class="studentCard" width="45%" *ngFor="let student of (students$ | async)">
+                <div horizontalAlignment="center">                
+                  <p horizontalAlignment="center" class="header">student.Name</p>
+                    
+                  <p horizontalAlignment="center" textWrap="true">Working towards: '+student.Reward</p>
+                </div>
+              </div>
+            </div>

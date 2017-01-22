@@ -1,0 +1,62 @@
+{
+  "name": "nativescript-insomnia",
+  "version": "1.2.0",
+  "description": "Make the screen not dim (and eventually lock the device) while Insomnia is active",
+  "main": "insomnia.js",
+  "nativescript": {
+    "platforms": {
+      "ios": "2.3.0",
+      "android": "2.3.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddyverbruggen/nativescript-insomnia.git"
+  },
+  "keywords": [
+    "NativeScript",
+    "Insomnia",
+    "Screen dim",
+    "dim",
+    "lock",
+    "sleep"
+  ],
+  "author": {
+    "name": "Eddy Verbruggen",
+    "email": "eddyverbruggen@gmail.com",
+    "url": "https://github.com/EddyVerbruggen"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eddyverbruggen/nativescript-insomnia/issues"
+  },
+  "homepage": "https://github.com/eddyverbruggen/nativescript-insomnia",
+  "gitHead": "79df563b19e49768259d2909581fe9c4e986004b",
+  "_id": "nativescript-insomnia@1.2.0",
+  "scripts": {},
+  "_shasum": "ab066b39f92f13d2732d81ff8748e753c1230bba",
+  "_from": "nativescript-insomnia@>=1.2.0 <2.0.0",
+  "_npmVersion": "2.14.7",
+  "_nodeVersion": "4.2.2",
+  "_npmUser": {
+    "name": "eddyverbruggen",
+    "email": "eddyverbruggen@gmail.com"
+  },
+  "dist": {
+    "shasum": "ab066b39f92f13d2732d81ff8748e753c1230bba",
+    "tarball": "https://registry.npmjs.org/nativescript-insomnia/-/nativescript-insomnia-1.2.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "eddyverbruggen",
+      "email": "eddyverbruggen@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/nativescript-insomnia-1.2.0.tgz_1474623966569_0.9695528803858906"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/nativescript-insomnia/-/nativescript-insomnia-1.2.0.tgz",
+  "readme": "ERROR: No README data found!"
+}

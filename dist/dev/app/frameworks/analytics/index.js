@@ -1,0 +1,15 @@
+"use strict";
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+var angulartics2_1 = require('angulartics2');
+var providers_1 = require('angulartics2/dist/providers');
+var analytics_service_1 = require('./services/analytics.service');
+exports.ANALYTICS_PROVIDERS = [
+    angulartics2_1.Angulartics2,
+    providers_1.Angulartics2Segment,
+    analytics_service_1.AnalyticsService
+];
+__export(require('./services/analytics.service'));
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC9mcmFtZXdvcmtzL2FuYWx5dGljcy9pbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7O0FBQ0EsNkJBQTZCLGNBQWMsQ0FBQyxDQUFBO0FBQzVDLDBCQUFvQyw2QkFBNkIsQ0FBQyxDQUFBO0FBR2xFLGtDQUFpQyw4QkFBOEIsQ0FBQyxDQUFBO0FBRW5ELDJCQUFtQixHQUFlO0lBQzdDLDJCQUFZO0lBQ1osK0JBQW1CO0lBQ25CLG9DQUFnQjtDQUNqQixDQUFDO0FBR0YsaUJBQWMsOEJBQThCLENBQUMsRUFBQSIsImZpbGUiOiJhcHAvZnJhbWV3b3Jrcy9hbmFseXRpY3MvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBsaWJzXG5pbXBvcnQgeyBBbmd1bGFydGljczIgfSBmcm9tICdhbmd1bGFydGljczInO1xuaW1wb3J0IHsgQW5ndWxhcnRpY3MyU2VnbWVudCB9IGZyb20gJ2FuZ3VsYXJ0aWNzMi9kaXN0L3Byb3ZpZGVycyc7XG5cbi8vIGFwcFxuaW1wb3J0IHsgQW5hbHl0aWNzU2VydmljZSB9IGZyb20gJy4vc2VydmljZXMvYW5hbHl0aWNzLnNlcnZpY2UnO1xuXG5leHBvcnQgY29uc3QgQU5BTFlUSUNTX1BST1ZJREVSUzogQXJyYXk8YW55PiA9IFtcbiAgQW5ndWxhcnRpY3MyLFxuICBBbmd1bGFydGljczJTZWdtZW50LFxuICBBbmFseXRpY3NTZXJ2aWNlXG5dO1xuXG4vLyBzZXJ2aWNlc1xuZXhwb3J0ICogZnJvbSAnLi9zZXJ2aWNlcy9hbmFseXRpY3Muc2VydmljZSc7XG4iXX0=

@@ -1,0 +1,106 @@
+{
+  "name": "nativescript-angular",
+  "version": "1.4.1-2017-01-16-1206",
+  "description": "An Angular 2 renderer that lets you build mobile apps with NativeScript.",
+  "homepage": "http://www.telerik.com",
+  "bugs": {
+    "url": "http://www.telerik.com"
+  },
+  "contributors": [
+    {
+      "name": "Hristo Deshev",
+      "email": "hristo.deshev@telerik.com"
+    }
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NativeScript/nativescript-angular.git"
+  },
+  "scripts": {
+    "tslint": "tslint --project tsconfig.json --config tslint.json",
+    "postinstall": "node postinstall.js",
+    "ngc": "ngc -p tsconfig.json",
+    "tsc": "tsc -p tsconfig.json",
+    "prepublish": "npm run tsc && npm run ngc"
+  },
+  "dependencies": {
+    "nativescript-intl": "~0.0.8",
+    "@angular/core": "~2.4.3",
+    "@angular/common": "~2.4.3",
+    "@angular/compiler": "~2.4.3",
+    "@angular/http": "~2.4.3",
+    "@angular/platform-browser": "~2.4.3",
+    "@angular/platform-browser-dynamic": "~2.4.3",
+    "@angular/forms": "~2.4.3",
+    "@angular/router": "~3.4.3",
+    "rxjs": "~5.0.1",
+    "reflect-metadata": "~0.1.8",
+    "parse5": "1.3.2",
+    "punycode": "1.3.2",
+    "querystring": "0.2.0",
+    "url": "0.10.3"
+  },
+  "devDependencies": {
+    "typescript": "~2.1.0",
+    "tslint": "~4.0.1",
+    "codelyzer": "^2.0.0-beta.1",
+    "@angular/compiler-cli": "~2.4.3",
+    "tns-core-modules": ">=2.5.0 || >=2.5.0-2016",
+    "zone.js": "^0.7.2"
+  },
+  "nativescript": {},
+  "publishConfig": {
+    "tag": "next"
+  },
+  "_id": "nativescript-angular@1.4.1-2017-01-16-1206",
+  "_shasum": "0e54987214539d7a41b190ad4ecd02dabb6c0a34",
+  "_from": "nativescript-angular@next",
+  "_npmVersion": "3.10.8",
+  "_nodeVersion": "6.9.1",
+  "_npmUser": {
+    "name": "erjangavalji",
+    "email": "erjan.gavalji@gmail.com"
+  },
+  "dist": {
+    "shasum": "0e54987214539d7a41b190ad4ecd02dabb6c0a34",
+    "tarball": "https://registry.npmjs.org/nativescript-angular/-/nativescript-angular-1.4.1-2017-01-16-1206.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "enchev",
+      "email": "vladimir.enchev@gmail.com"
+    },
+    {
+      "name": "erjangavalji",
+      "email": "erjan.gavalji@gmail.com"
+    },
+    {
+      "name": "hamorphis",
+      "email": "rossen.hristov@progress.com"
+    },
+    {
+      "name": "hdeshev",
+      "email": "hristo@deshev.com"
+    },
+    {
+      "name": "nsndeck",
+      "email": "nedyalko.nikolov@telerik.com"
+    },
+    {
+      "name": "tns-bot",
+      "email": "nativescript@telerik.com"
+    },
+    {
+      "name": "vakrilov",
+      "email": "alexander.vakrilov@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/nativescript-angular-1.4.1-2017-01-16-1206.tgz_1484557206394_0.7395037736278027"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/nativescript-angular/-/nativescript-angular-1.4.1-2017-01-16-1206.tgz",
+  "readme": "ERROR: No README data found!"
+}

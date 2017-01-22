@@ -1,0 +1,11 @@
+"use strict";
+var home_component_1 = require('./home.component');
+var auth_guard_service_1 = require("../../services/auth-guard.service");
+exports.HomeRoutes = [
+    { path: '',
+        component: home_component_1.HomeComponent,
+        canActivate: [auth_guard_service_1.AuthGuard]
+    }
+];
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC9mcmFtZXdvcmtzL3ByYWN0aWNlYnVkZHkvY29tcG9uZW50cy9ob21lL2hvbWUucm91dGVzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFDQSwrQkFBOEIsa0JBQWtCLENBQUMsQ0FBQTtBQUNqRCxtQ0FBMEIsbUNBQW1DLENBQUMsQ0FBQTtBQUVqRCxrQkFBVSxHQUFXO0lBQ2hDLEVBQUUsSUFBSSxFQUFFLEVBQUU7UUFDUixTQUFTLEVBQUUsOEJBQWE7UUFDeEIsV0FBVyxFQUFFLENBQUMsOEJBQVMsQ0FBQztLQUN6QjtDQUNGLENBQUMiLCJmaWxlIjoiYXBwL2ZyYW1ld29ya3MvcHJhY3RpY2VidWRkeS9jb21wb25lbnRzL2hvbWUvaG9tZS5yb3V0ZXMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBSb3V0ZXMgfSBmcm9tIFwiQGFuZ3VsYXIvcm91dGVyXCI7XG5pbXBvcnQgeyBIb21lQ29tcG9uZW50IH0gZnJvbSAnLi9ob21lLmNvbXBvbmVudCc7XG5pbXBvcnQgeyBBdXRoR3VhcmQgfSBmcm9tIFwiLi4vLi4vc2VydmljZXMvYXV0aC1ndWFyZC5zZXJ2aWNlXCI7XG5cbmV4cG9ydCBjb25zdCBIb21lUm91dGVzOiBSb3V0ZXMgPSBbXG4gIHsgcGF0aDogJycsIFxuICAgIGNvbXBvbmVudDogSG9tZUNvbXBvbmVudCwgXG4gICAgY2FuQWN0aXZhdGU6IFtBdXRoR3VhcmRdXG4gIH0gIFxuXTtcbiJdfQ==

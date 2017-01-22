@@ -1,0 +1,10 @@
+"use strict";
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+var ng2_jasmine_1 = require('./shorthand/ng2-jasmine');
+exports.t = ng2_jasmine_1.Ng2Jasmine;
+__export(require('./e2e/dropdowns'));
+__export(require('./shorthand/ng2-jasmine'));
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC9mcmFtZXdvcmtzL3Rlc3QvaW5kZXgudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7OztBQUNBLDRCQUFvQyx5QkFBeUIsQ0FBQyxDQUFBO0FBQ2pELFNBQUMsR0FBWSx3QkFBVSxDQUFDO0FBR3JDLGlCQUFjLGlCQUFpQixDQUFDLEVBQUE7QUFHaEMsaUJBQWMseUJBQXlCLENBQUMsRUFBQSIsImZpbGUiOiJhcHAvZnJhbWV3b3Jrcy90ZXN0L2luZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiLy8gY29udmVuaWVudCBzaG9ydGhhbmQgXG5pbXBvcnQgeyBOZzJKYXNtaW5lLCBUZXN0QXBpIH0gZnJvbSAnLi9zaG9ydGhhbmQvbmcyLWphc21pbmUnO1xuZXhwb3J0IGNvbnN0IHQ6IFRlc3RBcGkgPSBOZzJKYXNtaW5lO1xuXG4vLyBlMmVcbmV4cG9ydCAqIGZyb20gJy4vZTJlL2Ryb3Bkb3ducyc7XG5cbi8vIHNob3J0aGFuZFxuZXhwb3J0ICogZnJvbSAnLi9zaG9ydGhhbmQvbmcyLWphc21pbmUnO1xuIl19

@@ -1,0 +1,12 @@
+"use strict";
+var common_1 = require("@angular/common");
+var testing_1 = require("@angular/common/testing");
+function TEST_LOCATION_PROVIDERS() {
+    return [
+        { provide: common_1.Location, useClass: testing_1.SpyLocation },
+        { provide: common_1.LocationStrategy, useClass: testing_1.MockLocationStrategy },
+        { provide: common_1.APP_BASE_HREF, useValue: '/' }
+    ];
+}
+exports.TEST_LOCATION_PROVIDERS = TEST_LOCATION_PROVIDERS;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicm91dGVyLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsicm91dGVyLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFDQSwwQ0FBNEU7QUFDNUUsbURBQTRFO0FBRTVFO0lBRUUsTUFBTSxDQUFDO1FBQ0wsRUFBQyxPQUFPLEVBQUUsaUJBQVEsRUFBRSxRQUFRLEVBQUUscUJBQVcsRUFBQztRQUMxQyxFQUFDLE9BQU8sRUFBRSx5QkFBZ0IsRUFBRSxRQUFRLEVBQUUsOEJBQW9CLEVBQUM7UUFDM0QsRUFBRSxPQUFPLEVBQUUsc0JBQWEsRUFBRSxRQUFRLEVBQUUsR0FBRyxFQUFFO0tBQzFDLENBQUM7QUFDSixDQUFDO0FBUEQsMERBT0MiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBhbmd1bGFyXG5pbXBvcnQgeyBMb2NhdGlvbiwgTG9jYXRpb25TdHJhdGVneSwgQVBQX0JBU0VfSFJFRiB9IGZyb20gJ0Bhbmd1bGFyL2NvbW1vbic7XG5pbXBvcnQgeyBTcHlMb2NhdGlvbiwgTW9ja0xvY2F0aW9uU3RyYXRlZ3kgfSBmcm9tICdAYW5ndWxhci9jb21tb24vdGVzdGluZyc7XG5cbmV4cG9ydCBmdW5jdGlvbiBURVNUX0xPQ0FUSU9OX1BST1ZJREVSUygpOiBBcnJheTxhbnk+IHtcblxuICByZXR1cm4gW1xuICAgIHtwcm92aWRlOiBMb2NhdGlvbiwgdXNlQ2xhc3M6IFNweUxvY2F0aW9ufSxcbiAgICB7cHJvdmlkZTogTG9jYXRpb25TdHJhdGVneSwgdXNlQ2xhc3M6IE1vY2tMb2NhdGlvblN0cmF0ZWd5fSxcbiAgICB7IHByb3ZpZGU6IEFQUF9CQVNFX0hSRUYsIHVzZVZhbHVlOiAnLycgfVxuICBdO1xufVxuIl19

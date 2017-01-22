@@ -1,0 +1,14 @@
+"use strict";
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+var firebase_service_1 = require('./firebase.service');
+var auth_guard_service_1 = require('./auth-guard.service');
+exports.PRACTICEBUDDY_PROVIDERS = [
+    firebase_service_1.FirebaseService,
+    auth_guard_service_1.AuthGuard,
+];
+__export(require('./firebase.service'));
+__export(require('./auth-guard.service'));
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC9mcmFtZXdvcmtzL3ByYWN0aWNlYnVkZHkvc2VydmljZXMvaW5kZXgudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7OztBQUFBLGlDQUE4QixvQkFBb0IsQ0FBQyxDQUFBO0FBQ25ELG1DQUF3QixzQkFBc0IsQ0FBQyxDQUFBO0FBR2xDLCtCQUF1QixHQUFlO0lBQ2pELGtDQUFlO0lBQ2YsOEJBQVM7Q0FFVixDQUFDO0FBRUYsaUJBQWMsb0JBQW9CLENBQUMsRUFBQTtBQUNuQyxpQkFBYyxzQkFBc0IsQ0FBQyxFQUFBIiwiZmlsZSI6ImFwcC9mcmFtZXdvcmtzL3ByYWN0aWNlYnVkZHkvc2VydmljZXMvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge0ZpcmViYXNlU2VydmljZX0gZnJvbSAnLi9maXJlYmFzZS5zZXJ2aWNlJztcbmltcG9ydCB7QXV0aEd1YXJkfSBmcm9tICcuL2F1dGgtZ3VhcmQuc2VydmljZSc7XG4vL2ltcG9ydCB7IGF1dGhQcm92aWRlcnMgfSBmcm9tIFwiLi4vY29tcG9uZW50cy9hcHAvYXBwLnJvdXRlc1wiO1xuXG5leHBvcnQgY29uc3QgUFJBQ1RJQ0VCVUREWV9QUk9WSURFUlM6IEFycmF5PGFueT4gPSBbXG4gIEZpcmViYXNlU2VydmljZSxcbiAgQXV0aEd1YXJkLFxuICAvL2F1dGhQcm92aWRlcnNcbl07XG5cbmV4cG9ydCAqIGZyb20gJy4vZmlyZWJhc2Uuc2VydmljZSc7XG5leHBvcnQgKiBmcm9tICcuL2F1dGgtZ3VhcmQuc2VydmljZSc7XG4vL2V4cG9ydCAqIGZyb20gJy4uL2NvbXBvbmVudHMvYXBwL2FwcC5yb3V0ZXMnOyJdfQ==

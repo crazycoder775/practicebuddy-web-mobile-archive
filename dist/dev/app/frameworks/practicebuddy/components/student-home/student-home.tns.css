@@ -1,0 +1,47 @@
+Label {
+    margin:10
+}
+@-webkit-keyframes pulse {
+    0% { -webkit-transform: scale(1, 1); transform: scale(1, 1);}
+	50% { -webkit-transform: scale(1.15, 1.15); transform: scale(1.15, 1.15);}
+	100% { -webkit-transform: scale(1, 1); transform: scale(1, 1);}
+}
+@keyframes pulse {
+    0% { -webkit-transform: scale(1, 1); transform: scale(1, 1);}
+	50% { -webkit-transform: scale(1.15, 1.15); transform: scale(1.15, 1.15);}
+	100% { -webkit-transform: scale(1, 1); transform: scale(1, 1);}
+}
+.pulse {
+    background-color: #10B671;
+    -webkit-animation-name: pulse;
+            animation-name: pulse;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+}
+.btnRecord {
+    height: 80;
+    width: 80;
+    font-size: 30;
+    text-align: center;
+    color: #fff;
+    border-radius: 40;
+    horizontal-align: center;
+    vertical-align: bottom;
+}
+
+
+.btnTimer {
+    border-radius: 5;
+    font-size: 20;
+    color: #FFF;
+    height: 50;
+    margin: 2;
+}
+
+.timer {
+    font-weight: bold;
+    font-size: 34;
+    color: #1598F6;
+}
